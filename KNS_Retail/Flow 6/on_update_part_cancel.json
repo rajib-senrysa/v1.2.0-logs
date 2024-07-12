@@ -1,0 +1,265 @@
+{
+    "context": {
+        "domain": "ONDC:RET16",
+        "action": "on_update",
+        "core_version": "1.2.0",
+        "bap_id": "buyer-app-preprod-v2.ondc.org",
+        "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+        "bpp_id": "ondc.mysellercentral.com",
+        "bpp_uri": "https://ondc.mysellercentral.com/api/ondc",
+        "transaction_id": "1916ad47-4b94-426c-becd-8c31299975c1",
+        "message_id": "99677fe3-6b17-46f3-932d-ef706bde1b79",
+        "city": "std:022",
+        "country": "IND",
+        "timestamp": "2024-07-11T08:38:53.471Z"
+    },
+    "message": {
+        "order": {
+            "id": "2024-07-11-660743",
+            "state": "Accepted",
+            "provider": {
+                "id": "51",
+                "locations": [
+                    {
+                        "id": "bX1nc4VU"
+                    }
+                ]
+            },
+            "items": [
+                {
+                    "id": "637",
+                    "fulfillment_id": "92c5c443-046f-4080-9626-2ff1d054429d",
+                    "quantity": {
+                        "count": 1
+                    }
+                },
+                {
+                    "id": "637",
+                    "fulfillment_id": "ec44cce5-107a-4ec3-a7e2-7b49d0a28fef",
+                    "quantity": {
+                        "count": 1
+                    }
+                },
+                {
+                    "id": "635",
+                    "fulfillment_id": "92c5c443-046f-4080-9626-2ff1d054429d",
+                    "quantity": {
+                        "count": 2
+                    }
+                }
+            ],
+            "billing": {
+                "name": "Aniket Mishra",
+                "email": "aniket@kascommerce.com",
+                "phone": "9876543210",
+                "address": {
+                    "city": "Mumbai",
+                    "name": "Aniket Mishra",
+                    "state": "Maharashtra",
+                    "country": "IND",
+                    "building": "Acme Plaza building number 2",
+                    "locality": "Mathuradas Vasanji Road",
+                    "area_code": "400059"
+                },
+                "created_at": "2024-07-11T08:37:57.900Z",
+                "updated_at": "2024-07-11T08:37:57.900Z"
+            },
+            "fulfillments": [
+                {
+                    "id": "92c5c443-046f-4080-9626-2ff1d054429d",
+                    "@ondc/org/provider_name": "KAS Store",
+                    "type": "Delivery",
+                    "tracking": false,
+                    "@ondc/org/TAT": "P4D",
+                    "state": {
+                        "descriptor": {
+                            "code": "Pending"
+                        }
+                    },
+                    "start": {
+                        "location": {
+                            "id": "bX1nc4VU",
+                            "descriptor": {
+                                "name": "KAS Store"
+                            },
+                            "gps": "19.1129587,72.8656954",
+                            "address": {
+                                "locality": "JB Nagar Chakala",
+                                "city": "Mumbai",
+                                "area_code": "400059",
+                                "state": "Maharashtra",
+                                "country": "IND",
+                                "building": "ACME Plaza 2"
+                            }
+                        },
+                        "time": {
+                            "range": {
+                                "start": "2024-07-11T09:38:20.460Z",
+                                "end": "2024-07-12T08:38:20.460Z"
+                            }
+                        },
+                        "contact": {
+                            "phone": "9834824098",
+                            "email": "anket@mail.com"
+                        }
+                    },
+                    "end": {
+                        "location": {
+                            "gps": "19.112919,72.865683",
+                            "address": {
+                                "name": "Aniket Mishra",
+                                "building": "Acme Plaza building number 2",
+                                "locality": "Mathuradas Vasanji Road",
+                                "city": "Mumbai",
+                                "state": "Maharashtra",
+                                "country": "IND",
+                                "area_code": "400059"
+                            }
+                        },
+                        "time": {
+                            "range": {
+                                "start": "2024-07-14T08:38:20.460Z",
+                                "end": "2024-07-15T08:38:20.460Z"
+                            }
+                        },
+                        "person": {
+                            "name": "Aniket Mishra"
+                        },
+                        "contact": {
+                            "email": "aniket@kascommerce.com",
+                            "phone": "9876543210"
+                        }
+                    }
+                },
+                {
+                    "id": "ec44cce5-107a-4ec3-a7e2-7b49d0a28fef",
+                    "type": "Cancel",
+                    "state": {
+                        "descriptor": {
+                            "code": "Cancelled"
+                        }
+                    },
+                    "tags": [
+                        {
+                            "code": "quote_trail",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "item"
+                                },
+                                {
+                                    "code": "id",
+                                    "value": "637"
+                                },
+                                {
+                                    "code": "currency",
+                                    "value": "INR"
+                                },
+                                {
+                                    "code": "value",
+                                    "value": "-320"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "cancel_request",
+                            "list": [
+                                {
+                                    "code": "reason_id",
+                                    "value": "002"
+                                },
+                                {
+                                    "code": "initiated_by",
+                                    "value": "ondc.mysellercentral.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "quote": {
+                "price": {
+                    "currency": "INR",
+                    "value": "810.00"
+                },
+                "breakup": [
+                    {
+                        "@ondc/org/item_id": "637",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 1
+                        },
+                        "title": "Iron",
+                        "price": {
+                            "currency": "INR",
+                            "value": "320"
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "320"
+                            }
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "635",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 2
+                        },
+                        "title": "Study Table",
+                        "price": {
+                            "currency": "INR",
+                            "value": "440"
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "220"
+                            }
+                        }
+                    },
+                    {
+                        "@ondc/org/item_id": "92c5c443-046f-4080-9626-2ff1d054429d",
+                        "title": "Delivery charges",
+                        "@ondc/org/title_type": "delivery",
+                        "price": {
+                            "currency": "INR",
+                            "value": "50.00"
+                        }
+                    }
+                ],
+                "ttl": "PT1H"
+            },
+            "payment": {
+                "uri": "https://razorpay.com/",
+                "tl_method": "http/get",
+                "params": {
+                    "currency": "INR",
+                    "transaction_id": "order_OXGIBuFOW3HiK6",
+                    "amount": "1130.00"
+                },
+                "status": "PAID",
+                "type": "ON-ORDER",
+                "collected_by": "BAP",
+                "@ondc/org/buyer_app_finder_fee_type": "percent",
+                "@ondc/org/buyer_app_finder_fee_amount": "3.0",
+                "@ondc/org/settlement_details": [
+                    {
+                        "settlement_counterparty": "seller-app",
+                        "settlement_phase": "sale-amount",
+                        "settlement_type": "upi",
+                        "beneficiary_name": "KAS",
+                        "upi_address": "9786543210@ybl",
+                        "settlement_bank_account_no": "9876543210",
+                        "settlement_ifsc_code": "9876543210",
+                        "bank_name": "SBI",
+                        "branch_name": "Mumbai"
+                    }
+                ]
+            },
+            "created_at": "2024-07-11T08:38:17.467Z",
+            "updated_at": "2024-07-11T08:38:53.471Z"
+        }
+    }
+}

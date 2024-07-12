@@ -1,7 +1,7 @@
 {
     "context": {
         "ttl": "PT30S",
-        "city": "std:080",
+        "city": "std:011",
         "action": "select",
         "bap_id": "buypreprod.enam.gov.in",
         "bpp_id": "sellpreprod.enam.gov.in",
@@ -9,30 +9,27 @@
         "bap_uri": "https://buypreprod.enam.gov.in/ondc/v1",
         "bpp_uri": "https://sellpreprod.enam.gov.in/ondc/v1",
         "country": "IND",
-        "timestamp": "2024-05-03T22:51:24.983Z",
-        "message_id": "b794e3ab-af6a-48a8-8a53-f1a724503796",
+        "timestamp": "2024-06-09T10:56:46.500Z",
+        "message_id": "a87fae94-7689-47ab-aa87-bf9fbe17a834",
         "core_version": "1.2.0",
-        "transaction_id": "1f1a8b33-7868-4f55-bf29-e503e856523c"
+        "transaction_id": "202ce84c-cb8f-433f-a31c-83edf23b1cca"
     },
     "message": {
         "order": {
             "items": [
                 {
-                    "id": "110",
+                    "id": "1428",
                     "quantity": {
                         "count": 2
                     },
-                    "location_id": "66"
+                    "location_id": "288"
                 }
             ],
-            "payment": {
-                "type": "ON-FULFILLMENT"
-            },
             "provider": {
-                "id": "57",
+                "id": "116",
                 "locations": [
                     {
-                        "id": "66"
+                        "id": "288"
                     }
                 ]
             },
@@ -40,13 +37,12 @@
                 {
                     "end": {
                         "location": {
-                            "gps": "12.453544,77.928379",
+                            "gps": "28.6225833,77.2127222",
                             "address": {
-                                "area_code": "560034"
+                                "area_code": "110001"
                             }
                         }
-                    },
-                    "tracking": false
+                    }
                 }
             ]
         }

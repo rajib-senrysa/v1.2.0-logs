@@ -7,9 +7,9 @@
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "transaction_id": "86765e62-adef-4541-97c6-3098e180ac8c",
-        "message_id": "fe56b855-3d56-4509-bdba-8312d408a666",
-        "timestamp": "2024-05-03T10:47:55.962Z",
+        "transaction_id": "5f20ba32-66fa-4939-b3c8-f4f434578512",
+        "message_id": "0d15b451-089e-4240-ae72-d97157b2eae1",
+        "timestamp": "2024-06-20T08:41:01.088Z",
         "ttl": "PT30S",
         "bpp_id": "storepreprod.krenai.in",
         "bpp_uri": "https://storepreprod.krenai.in/ondc/"
@@ -18,7 +18,7 @@
         "order": {
             "fulfillments": [
                 {
-                    "id": "717",
+                    "id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                     "tracking": true,
                     "end": {
                         "location": {
@@ -44,24 +44,17 @@
             ],
             "items": [
                 {
-                    "id": "4ca77026",
-                    "fulfillment_id": "717",
+                    "id": "8901972083",
+                    "fulfillment_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                     "quantity": {
                         "count": 3
                     }
                 },
                 {
-                    "id": "0638901218",
-                    "fulfillment_id": "717",
+                    "id": "16050842",
+                    "fulfillment_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                     "quantity": {
-                        "count": 4
-                    }
-                },
-                {
-                    "id": "8901972083",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 5
+                        "count": 3
                     }
                 }
             ],
@@ -76,16 +69,16 @@
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "652.30"
+                    "value": "269.20"
                 },
                 "breakup": [
                     {
-                        "title": "Catch Turmeric Powder",
+                        "title": "Parle Orange Bite",
                         "price": {
                             "currency": "INR",
-                            "value": "240.00"
+                            "value": "90.00"
                         },
-                        "@ondc/org/item_id": "4ca77026",
+                        "@ondc/org/item_id": "8901972083",
                         "@ondc/org/title_type": "item",
                         "@ondc/org/item_quantity": {
                             "count": 3
@@ -93,38 +86,20 @@
                         "item": {
                             "price": {
                                 "currency": "INR",
-                                "value": "80.00"
+                                "value": "30.00"
                             }
                         }
                     },
                     {
-                        "title": "PARACHCHTE HOT OIL 90ML",
+                        "title": "Harpic Disinfectant Toilet Cleaner",
                         "price": {
                             "currency": "INR",
-                            "value": "132.00"
+                            "value": "150.00"
                         },
-                        "@ondc/org/item_id": "0638901218",
+                        "@ondc/org/item_id": "16050842",
                         "@ondc/org/title_type": "item",
                         "@ondc/org/item_quantity": {
-                            "count": 4
-                        },
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "33.00"
-                            }
-                        }
-                    },
-                    {
-                        "title": "Parle Orange Bite",
-                        "price": {
-                            "currency": "INR",
-                            "value": "250.00"
-                        },
-                        "@ondc/org/item_id": "8901972083",
-                        "@ondc/org/title_type": "item",
-                        "@ondc/org/item_quantity": {
-                            "count": 5
+                            "count": 3
                         },
                         "item": {
                             "price": {
@@ -137,18 +112,18 @@
                         "title": "Delivery Charges",
                         "price": {
                             "currency": "INR",
-                            "value": "8.00"
+                            "value": "20.00"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                         "@ondc/org/title_type": "delivery"
                     },
                     {
                         "title": "Convenience Fee",
                         "price": {
                             "currency": "INR",
-                            "value": "22.30"
+                            "value": "9.20"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                         "@ondc/org/title_type": "misc"
                     }
                 ],
@@ -167,8 +142,8 @@
                     "country": "IND",
                     "area_code": "122102"
                 },
-                "created_at": "2024-05-03T10:47:55.909Z",
-                "updated_at": "2024-05-03T10:47:55.909Z"
+                "created_at": "2024-06-20T08:41:01.052Z",
+                "updated_at": "2024-06-20T08:41:01.052Z"
             },
             "payment": {
                 "@ondc/org/buyer_app_finder_fee_type": "percent",

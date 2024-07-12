@@ -1,0 +1,208 @@
+{
+  "context": {
+    "domain": "ONDC:RET16",
+    "action": "on_status",
+    "core_version": "1.2.0",
+    "bap_id": "buyer-app-preprod-v2.ondc.org",
+    "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+    "bpp_id": "ondc.mysellercentral.com",
+    "bpp_uri": "https://ondc.mysellercentral.com/api/ondc",
+    "transaction_id": "6a01fbe6-0b61-4fe1-ae81-35f99240100f",
+    "message_id": "87aa2edb-276a-4176-8f9b-c0a7b10c69e7",
+    "city": "std:022",
+    "country": "IND",
+    "timestamp": "2024-07-10T10:41:40.788Z",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "id": "2024-07-10-636669",
+      "state": "Completed",
+      "provider": {
+        "id": "51",
+        "locations": [
+          {
+            "id": "bX1nc4VU"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "614",
+          "fulfillment_id": "dd3160d8-9445-4303-b579-686880e53408",
+          "quantity": {
+            "count": 2
+          }
+        }
+      ],
+      "billing": {
+        "name": "Viraj",
+        "email": "viraj@kascommerce.com",
+        "phone": "8779772643",
+        "address": {
+          "city": "Mumbai",
+          "name": "Viraj",
+          "state": "Maharashtra",
+          "country": "IND",
+          "building": "Acme Plaza building number 2",
+          "locality": "Maharshi Karve Marg",
+          "area_code": "400002"
+        },
+        "created_at": "2024-07-10T10:38:13.323Z",
+        "updated_at": "2024-07-10T10:38:13.323Z"
+      },
+      "fulfillments": [
+        {
+          "id": "dd3160d8-9445-4303-b579-686880e53408",
+          "@ondc/org/provider_name": "KAS Store",
+          "type": "Delivery",
+          "tracking": false,
+          "@ondc/org/TAT": "P4D",
+          "state": {
+            "descriptor": {
+              "code": "Order-delivered"
+            }
+          },
+          "start": {
+            "location": {
+              "id": "bX1nc4VU",
+              "descriptor": {
+                "name": "KAS Store"
+              },
+              "gps": "19.1129587,72.8656954",
+              "address": {
+                "locality": "JB Nagar Chakala",
+                "city": "Mumbai",
+                "area_code": "400059",
+                "state": "Maharashtra",
+                "country": "IND",
+                "building": "ACME Plaza 2"
+              }
+            },
+            "time": {
+              "range": {
+                "start": "2024-07-10T11:38:37.281Z",
+                "end": "2024-07-11T10:38:37.281Z"
+              },
+              "timestamp": "2024-07-10T10:41:17.725Z"
+            },
+            "contact": {
+              "phone": "9834824098",
+              "email": "anket@mail.com"
+            }
+          },
+          "end": {
+            "location": {
+              "gps": "18.941136,72.826625",
+              "address": {
+                "name": "Viraj",
+                "building": "Acme Plaza building number 2",
+                "locality": "Maharshi Karve Marg",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "IND",
+                "area_code": "400002"
+              }
+            },
+            "time": {
+              "range": {
+                "start": "2024-07-13T10:38:37.281Z",
+                "end": "2024-07-14T10:38:37.281Z"
+              },
+              "timestamp": "2024-07-10T10:41:40.788Z"
+            },
+            "person": {
+              "name": "Viraj"
+            },
+            "contact": {
+              "phone": "8779772643"
+            }
+          },
+          "tags": [
+            {
+              "code": "routing",
+              "list": [
+                {
+                  "code": "type",
+                  "value": "P2P"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "quote": {
+        "price": {
+          "currency": "INR",
+          "value": "3054"
+        },
+        "breakup": [
+          {
+            "@ondc/org/item_id": "614",
+            "@ondc/org/item_quantity": {
+              "count": 2
+            },
+            "title": "Sofa",
+            "@ondc/org/title_type": "item",
+            "price": {
+              "currency": "INR",
+              "value": "3004"
+            },
+            "item": {
+              "price": {
+                "currency": "INR",
+                "value": "1502"
+              },
+              "tags": []
+            }
+          },
+          {
+            "@ondc/org/item_id": "dd3160d8-9445-4303-b579-686880e53408",
+            "title": "Delivery charges",
+            "@ondc/org/title_type": "delivery",
+            "price": {
+              "currency": "INR",
+              "value": "50"
+            }
+          }
+        ],
+        "ttl": "PT1H"
+      },
+      "payment": {
+        "uri": "https://razorpay.com/",
+        "tl_method": "http/get",
+        "params": {
+          "currency": "INR",
+          "transaction_id": "order_OWto6Xcxta4Q4s",
+          "amount": "3054.00"
+        },
+        "status": "PAID",
+        "type": "ON-ORDER",
+        "collected_by": "BAP",
+        "@ondc/org/buyer_app_finder_fee_type": "percent",
+        "@ondc/org/buyer_app_finder_fee_amount": "3.0",
+        "@ondc/org/settlement_details": [
+          {
+            "settlement_counterparty": "seller-app",
+            "settlement_phase": "sale-amount",
+            "settlement_type": "upi",
+            "beneficiary_name": "KAS",
+            "upi_address": "9786543210@ybl",
+            "settlement_bank_account_no": "9876543210",
+            "settlement_ifsc_code": "9876543210",
+            "bank_name": "SBI",
+            "branch_name": "Mumbai"
+          }
+        ]
+      },
+      "documents": [
+        {
+          "url": "https://d2mx9k5kvoni7p.cloudfront.net/Invoice-Pdf/MpId-12/ClientId-51/invoice-2024-07-10-636669.pdf?Expires=1722312245&Key-Pair-Id=K3KV9IWM5S7XCL&Signature=NzY4X2A46ylXl4sRZdaclKWm4~G-ykbRt2fmG-ky9U~~IREGS26GihplL7INxT7x7Qj8eY3ICypyE7A2UGvhGagKL3cd0dBXasDKo5ZPDNlSfy9rXUzihM~k0aFWYDeCjOvgfRZdbI5RFhC1z1vo2zNNxMfT~FaG2YJiC48wHe6wQbNEWbfRX0JVU2orVZcgyFtBR6C5~IyJ06YUt0IQR33-pGKCTahhsRS1PFP3mSfAmVPtG21sxODxhs~ZEdzybrWtB1g7DHmIbdHxzxzB2~eAiN3Q3ay4PMlyqBMfAYojreM-B1g64rBq3AaIsTfzV-0fntMPwjt2TG3T274xUg__",
+          "label": "Invoice"
+        }
+      ],
+      "created_at": "2024-07-10T10:38:34.337Z",
+      "updated_at": "2024-07-10T10:41:40.788Z"
+    }
+  }
+}

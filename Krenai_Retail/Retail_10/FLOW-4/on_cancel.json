@@ -7,33 +7,22 @@
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "transaction_id": "86765e62-adef-4541-97c6-3098e180ac8c",
-        "message_id": "4a5456f4-4466-45b0-b607-ae5097d278e4",
-        "timestamp": "2024-05-03T11:01:07.040Z",
+        "transaction_id": "5f20ba32-66fa-4939-b3c8-f4f434578512",
+        "message_id": "0225fd79-54eb-494b-8fa9-f45d65539517",
+        "timestamp": "2024-06-20T08:43:29.113Z",
         "ttl": "PT30S",
         "bpp_id": "storepreprod.krenai.in",
         "bpp_uri": "https://storepreprod.krenai.in/ondc/"
     },
     "message": {
         "order": {
-            "id": "2024-05-03-795289",
+            "id": "2024-06-20-809351",
             "state": "Cancelled",
             "provider": {
                 "id": "717",
                 "locations": [
                     {
-                        "id": "717",
-                        "descriptor": {
-                            "name": "KRENAI SERVICES PRIVATE LIMITED"
-                        },
-                        "gps": "28.4051175,76.9758274",
-                        "address": {
-                            "building": "badshahpur market",
-                            "locality": "Sihi",
-                            "city": "Gurgaon Division",
-                            "state": "Haryana",
-                            "area_code": "122004"
-                        }
+                        "id": "717"
                     }
                 ]
             },
@@ -50,8 +39,8 @@
                     "country": "IND",
                     "area_code": "122102"
                 },
-                "created_at": "2024-05-03T10:47:55.909Z",
-                "updated_at": "2024-05-03T10:47:55.909Z"
+                "created_at": "2024-06-20T08:41:01.052Z",
+                "updated_at": "2024-06-20T08:41:01.052Z"
             },
             "payment": {
                 "uri": "https://razorpay.com/",
@@ -59,9 +48,9 @@
                 "type": "ON-ORDER",
                 "collected_by": "BAP",
                 "params": {
-                    "amount": "652.3",
+                    "amount": "269.2",
                     "currency": "INR",
-                    "transaction_id": "order_O5ze9r5jVXgohO"
+                    "transaction_id": "order_OOx7sR3R9OKNk3"
                 },
                 "tl_method": "http/get",
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
@@ -88,51 +77,37 @@
             },
             "items": [
                 {
-                    "id": "4ca77026",
-                    "fulfillment_id": "717",
+                    "id": "8901972083",
+                    "fulfillment_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                     "quantity": {
                         "count": 0
                     }
                 },
                 {
-                    "id": "4ca77026",
-                    "fulfillment_id": "717-Cancel",
+                    "id": "8901972083",
+                    "fulfillment_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512-Cancel",
                     "quantity": {
                         "count": 3
                     }
                 },
                 {
-                    "id": "0638901218",
-                    "fulfillment_id": "717",
+                    "id": "16050842",
+                    "fulfillment_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                     "quantity": {
                         "count": 0
                     }
                 },
                 {
-                    "id": "0638901218",
-                    "fulfillment_id": "717-Cancel",
+                    "id": "16050842",
+                    "fulfillment_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512-Cancel",
                     "quantity": {
-                        "count": 4
-                    }
-                },
-                {
-                    "id": "8901972083",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 0
-                    }
-                },
-                {
-                    "id": "8901972083",
-                    "fulfillment_id": "717-Cancel",
-                    "quantity": {
-                        "count": 5
+                        "count": 3
                     }
                 }
             ],
             "fulfillments": [
                 {
-                    "id": "717",
+                    "id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                     "type": "Delivery",
                     "tracking": false,
                     "state": {
@@ -157,8 +132,8 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-03T10:48:20.895Z",
-                                "end": "2024-05-04T10:48:20.895Z"
+                                "start": "2024-06-20T08:41:46.371Z",
+                                "end": "2024-06-21T08:41:46.371Z"
                             }
                         },
                         "contact": {
@@ -181,8 +156,8 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-04T10:48:20.895Z",
-                                "end": "2024-05-05T10:48:20.895Z"
+                                "start": "2024-06-21T08:41:46.371Z",
+                                "end": "2024-06-22T08:41:46.371Z"
                             }
                         },
                         "contact": {
@@ -216,7 +191,7 @@
                                 },
                                 {
                                     "code": "updated_at",
-                                    "value": "2024-05-03T10:48:18.480Z"
+                                    "value": "2024-06-20T08:42:22.471Z"
                                 }
                             ]
                         }
@@ -224,7 +199,7 @@
                     "@ondc/org/provider_name": "KRENAI SERVICES PRIVATE LIMITED"
                 },
                 {
-                    "id": "717-Cancel",
+                    "id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512-Cancel",
                     "type": "Cancel",
                     "tracking": false,
                     "state": {
@@ -242,48 +217,6 @@
                                 },
                                 {
                                     "code": "id",
-                                    "value": "4ca77026"
-                                },
-                                {
-                                    "code": "currency",
-                                    "value": "INR"
-                                },
-                                {
-                                    "code": "value",
-                                    "value": "-240.0"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "quote_trail",
-                            "list": [
-                                {
-                                    "code": "type",
-                                    "value": "item"
-                                },
-                                {
-                                    "code": "id",
-                                    "value": "0638901218"
-                                },
-                                {
-                                    "code": "currency",
-                                    "value": "INR"
-                                },
-                                {
-                                    "code": "value",
-                                    "value": "-132.0"
-                                }
-                            ]
-                        },
-                        {
-                            "code": "quote_trail",
-                            "list": [
-                                {
-                                    "code": "type",
-                                    "value": "item"
-                                },
-                                {
-                                    "code": "id",
                                     "value": "8901972083"
                                 },
                                 {
@@ -292,7 +225,70 @@
                                 },
                                 {
                                     "code": "value",
-                                    "value": "-250.0"
+                                    "value": "-90.0"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "quote_trail",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "item"
+                                },
+                                {
+                                    "code": "id",
+                                    "value": "16050842"
+                                },
+                                {
+                                    "code": "currency",
+                                    "value": "INR"
+                                },
+                                {
+                                    "code": "value",
+                                    "value": "-150.0"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "quote_trail",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "delivery"
+                                },
+                                {
+                                    "code": "id",
+                                    "value": "717_5f20ba32-66fa-4939-b3c8-f4f434578512"
+                                },
+                                {
+                                    "code": "currency",
+                                    "value": "INR"
+                                },
+                                {
+                                    "code": "value",
+                                    "value": "-20.00"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "quote_trail",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "misc"
+                                },
+                                {
+                                    "code": "id",
+                                    "value": "717_5f20ba32-66fa-4939-b3c8-f4f434578512"
+                                },
+                                {
+                                    "code": "currency",
+                                    "value": "INR"
+                                },
+                                {
+                                    "code": "value",
+                                    "value": "-9.20"
                                 }
                             ]
                         }
@@ -302,45 +298,9 @@
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "30.30"
+                    "value": "0.00"
                 },
                 "breakup": [
-                    {
-                        "title": "Catch Turmeric Powder",
-                        "price": {
-                            "currency": "INR",
-                            "value": "0"
-                        },
-                        "@ondc/org/item_id": "4ca77026",
-                        "@ondc/org/title_type": "item",
-                        "@ondc/org/item_quantity": {
-                            "count": 0
-                        },
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "80.00"
-                            }
-                        }
-                    },
-                    {
-                        "title": "PARACHCHTE HOT OIL 90ML",
-                        "price": {
-                            "currency": "INR",
-                            "value": "0"
-                        },
-                        "@ondc/org/item_id": "0638901218",
-                        "@ondc/org/title_type": "item",
-                        "@ondc/org/item_quantity": {
-                            "count": 0
-                        },
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "33.00"
-                            }
-                        }
-                    },
                     {
                         "title": "Parle Orange Bite",
                         "price": {
@@ -348,6 +308,24 @@
                             "value": "0"
                         },
                         "@ondc/org/item_id": "8901972083",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 0
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "30.00"
+                            }
+                        }
+                    },
+                    {
+                        "title": "Harpic Disinfectant Toilet Cleaner",
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "@ondc/org/item_id": "16050842",
                         "@ondc/org/title_type": "item",
                         "@ondc/org/item_quantity": {
                             "count": 0
@@ -363,25 +341,25 @@
                         "title": "Delivery Charges",
                         "price": {
                             "currency": "INR",
-                            "value": "8.00"
+                            "value": "0"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                         "@ondc/org/title_type": "delivery"
                     },
                     {
                         "title": "Convenience Fee",
                         "price": {
                             "currency": "INR",
-                            "value": "22.30"
+                            "value": "0"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_5f20ba32-66fa-4939-b3c8-f4f434578512",
                         "@ondc/org/title_type": "misc"
                     }
                 ],
                 "ttl": "P1D"
             },
-            "created_at": "2024-05-03T10:48:17.948Z",
-            "updated_at": "2024-05-03T10:48:18.480Z"
+            "created_at": "2024-06-20T08:41:43.317Z",
+            "updated_at": "2024-06-20T08:42:22.471Z"
         }
     }
 }

@@ -1,0 +1,79 @@
+{
+  "context": {
+    "domain": "ONDC:RET16",
+    "country": "IND",
+    "city": "std:022",
+    "action": "init",
+    "core_version": "1.2.0",
+    "bap_id": "buyer-app-preprod-v2.ondc.org",
+    "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
+    "bpp_uri": "https://ondc.mysellercentral.com/api/ondc",
+    "transaction_id": "6a01fbe6-0b61-4fe1-ae81-35f99240100f",
+    "message_id": "2ad40f1f-5ea4-4e83-8a45-558d4cc7397f",
+    "timestamp": "2024-07-10T10:38:13.323Z",
+    "bpp_id": "ondc.mysellercentral.com",
+    "ttl": "PT30S"
+  },
+  "message": {
+    "order": {
+      "provider": {
+        "id": "51",
+        "locations": [
+          {
+            "id": "bX1nc4VU"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": "614",
+          "quantity": {
+            "count": 2
+          },
+          "location_id": "bX1nc4VU",
+          "fulfillment_id": "dd3160d8-9445-4303-b579-686880e53408"
+        }
+      ],
+      "billing": {
+        "address": {
+          "building": "Acme Plaza building number 2",
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "country": "IND",
+          "area_code": "400002",
+          "locality": "Maharshi Karve Marg",
+          "name": "Viraj"
+        },
+        "phone": "8779772643",
+        "name": "Viraj",
+        "email": "viraj@kascommerce.com",
+        "created_at": "2024-07-10T10:38:13.323Z",
+        "updated_at": "2024-07-10T10:38:13.323Z"
+      },
+      "fulfillments": [
+        {
+          "id": "dd3160d8-9445-4303-b579-686880e53408",
+          "type": "Delivery",
+          "end": {
+            "contact": {
+              "email": "viraj@kascommerce.com",
+              "phone": "8779772643"
+            },
+            "location": {
+              "gps": "18.941136,72.826625",
+              "address": {
+                "building": "Acme Plaza building number 2",
+                "city": "Mumbai",
+                "state": "Maharashtra",
+                "country": "IND",
+                "area_code": "400002",
+                "locality": "Maharshi Karve Marg",
+                "name": "Viraj"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

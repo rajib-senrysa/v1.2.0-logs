@@ -7,77 +7,66 @@
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "transaction_id": "8ebb8e65-afba-4c74-ac6a-dc115c839d5d",
-        "message_id": "0ae58367-cdfd-47f3-9309-0ccc765bc9ab",
-        "timestamp": "2024-05-03T13:51:04.403Z",
+        "transaction_id": "cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
+        "message_id": "50031876-cd9b-42aa-89d0-cb348583d78a",
+        "timestamp": "2024-06-20T10:02:12.337Z",
         "ttl": "PT30S",
         "bpp_id": "storepreprod.krenai.in",
         "bpp_uri": "https://storepreprod.krenai.in/ondc/"
     },
     "message": {
         "order": {
-            "id": "2024-05-03-209671",
+            "id": "2024-06-20-368447",
             "state": "Completed",
             "provider": {
                 "id": "717",
                 "locations": [
                     {
-                        "id": "717",
-                        "descriptor": {
-                            "name": "KRENAI SERVICES PRIVATE LIMITED"
-                        },
-                        "gps": "28.4051175,76.9758274",
-                        "address": {
-                            "building": "badshahpur market",
-                            "locality": "Sihi",
-                            "city": "Gurgaon Division",
-                            "state": "Haryana",
-                            "area_code": "122004"
-                        }
+                        "id": "717"
                     }
                 ]
             },
             "items": [
                 {
-                    "id": "22563112",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 5
-                    }
-                },
-                {
-                    "id": "100745",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 6
-                    }
-                },
-                {
-                    "id": "0638901218",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 7
-                    }
-                },
-                {
-                    "id": "8901972083",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 8
-                    }
-                },
-                {
-                    "id": "4ca77026",
-                    "fulfillment_id": "717",
+                    "id": "16050842",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                     "quantity": {
                         "count": 0
                     }
                 },
                 {
+                    "id": "6e170175",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
+                    "quantity": {
+                        "count": 3
+                    }
+                },
+                {
+                    "id": "100745",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
+                    "quantity": {
+                        "count": 5
+                    }
+                },
+                {
                     "id": "4ca77026",
-                    "fulfillment_id": "717-Cancel-d1217f55-1810-4e5f-a332-17b326ea4907",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                     "quantity": {
                         "count": 4
+                    }
+                },
+                {
+                    "id": "8901972083",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
+                    "quantity": {
+                        "count": 6
+                    }
+                },
+                {
+                    "id": "16050842",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Cancel-c355b7bf-8b13-4386-92b7-b2af03106d8d",
+                    "quantity": {
+                        "count": 2
                     }
                 }
             ],
@@ -94,12 +83,12 @@
                     "country": "IND",
                     "area_code": "122102"
                 },
-                "created_at": "2024-05-03T13:21:09.498Z",
-                "updated_at": "2024-05-03T13:21:09.498Z"
+                "created_at": "2024-06-20T09:59:42.706Z",
+                "updated_at": "2024-06-20T09:59:42.706Z"
             },
             "fulfillments": [
                 {
-                    "id": "717",
+                    "id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                     "type": "Delivery",
                     "tracking": true,
                     "state": {
@@ -124,10 +113,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-03T13:21:51.187Z",
-                                "end": "2024-05-04T13:21:51.187Z"
+                                "start": "2024-06-20T10:00:26.088Z",
+                                "end": "2024-06-21T10:00:26.088Z"
                             },
-                            "timestamp": "2024-05-03T13:45:16.333Z"
+                            "timestamp": "2024-06-20T10:01:52.893Z"
                         },
                         "contact": {
                             "phone": "7667790555",
@@ -149,10 +138,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-04T13:21:51.187Z",
-                                "end": "2024-05-05T13:21:51.187Z"
+                                "start": "2024-06-21T10:00:26.088Z",
+                                "end": "2024-06-22T10:00:26.088Z"
                             },
-                            "timestamp": "2024-05-03T13:51:03.185Z"
+                            "timestamp": "2024-06-20T10:02:10.452Z"
                         },
                         "contact": {
                             "phone": "7053708236",
@@ -162,11 +151,39 @@
                             "name": "pradeepyadav"
                         }
                     },
+                    "tags": [
+                        {
+                            "code": "routing",
+                            "list": [
+                                {
+                                    "code": "type",
+                                    "value": "P2P"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "tracking",
+                            "list": [
+                                {
+                                    "code": "gps_enabled",
+                                    "value": "no"
+                                },
+                                {
+                                    "code": "url_enabled",
+                                    "value": "yes"
+                                },
+                                {
+                                    "code": "url",
+                                    "value": "https://wekreta.online/ondc/tracking?id=1031014"
+                                }
+                            ]
+                        }
+                    ],
                     "@ondc/org/provider_name": "KRENAI SERVICES PRIVATE LIMITED",
                     "@ondc/org/TAT": "P5D"
                 },
                 {
-                    "id": "717-Cancel-d1217f55-1810-4e5f-a332-17b326ea4907",
+                    "id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Cancel-c355b7bf-8b13-4386-92b7-b2af03106d8d",
                     "type": "Cancel",
                     "tracking": false,
                     "state": {
@@ -180,7 +197,7 @@
                             "list": [
                                 {
                                     "code": "reason_id",
-                                    "value": "One or more items in the Order not available"
+                                    "value": "002"
                                 },
                                 {
                                     "code": "initiated_by",
@@ -197,7 +214,7 @@
                                 },
                                 {
                                     "code": "id",
-                                    "value": "4ca77026"
+                                    "value": "16050842"
                                 },
                                 {
                                     "code": "currency",
@@ -205,7 +222,7 @@
                                 },
                                 {
                                     "code": "value",
-                                    "value": "-320.0"
+                                    "value": "-100.0"
                                 }
                             ]
                         }
@@ -215,73 +232,19 @@
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "2257.11"
+                    "value": "1618.76"
                 },
                 "breakup": [
                     {
-                        "title": "Catch masala",
+                        "title": "Harpic Disinfectant Toilet Cleaner",
                         "price": {
                             "currency": "INR",
-                            "value": "300.00"
+                            "value": "0"
                         },
-                        "@ondc/org/item_id": "22563112",
+                        "@ondc/org/item_id": "16050842",
                         "@ondc/org/title_type": "item",
                         "@ondc/org/item_quantity": {
-                            "count": 5
-                        },
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "60.00"
-                            }
-                        }
-                    },
-                    {
-                        "title": "Lahori Zeera",
-                        "price": {
-                            "currency": "INR",
-                            "value": "1230.00"
-                        },
-                        "@ondc/org/item_id": "100745",
-                        "@ondc/org/title_type": "item",
-                        "@ondc/org/item_quantity": {
-                            "count": 6
-                        },
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "205.00"
-                            }
-                        }
-                    },
-                    {
-                        "title": "PARACHCHTE HOT OIL 90ML",
-                        "price": {
-                            "currency": "INR",
-                            "value": "231.00"
-                        },
-                        "@ondc/org/item_id": "0638901218",
-                        "@ondc/org/title_type": "item",
-                        "@ondc/org/item_quantity": {
-                            "count": 7
-                        },
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "33.00"
-                            }
-                        }
-                    },
-                    {
-                        "title": "Parle Orange Bite",
-                        "price": {
-                            "currency": "INR",
-                            "value": "400.00"
-                        },
-                        "@ondc/org/item_id": "8901972083",
-                        "@ondc/org/title_type": "item",
-                        "@ondc/org/item_quantity": {
-                            "count": 8
+                            "count": 0
                         },
                         "item": {
                             "price": {
@@ -291,21 +254,93 @@
                         }
                     },
                     {
+                        "title": "Lotte Coffy Bite",
+                        "price": {
+                            "currency": "INR",
+                            "value": "15.00"
+                        },
+                        "@ondc/org/item_id": "6e170175",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 3
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "5.00"
+                            }
+                        }
+                    },
+                    {
+                        "title": "Lahori Zeera",
+                        "price": {
+                            "currency": "INR",
+                            "value": "1025.00"
+                        },
+                        "@ondc/org/item_id": "100745",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 5
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "205.00"
+                            }
+                        }
+                    },
+                    {
+                        "title": "Catch Turmeric Powder 200 gram",
+                        "price": {
+                            "currency": "INR",
+                            "value": "320.00"
+                        },
+                        "@ondc/org/item_id": "4ca77026",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 4
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "80.00"
+                            }
+                        }
+                    },
+                    {
+                        "title": "Parle Orange Bite",
+                        "price": {
+                            "currency": "INR",
+                            "value": "180.00"
+                        },
+                        "@ondc/org/item_id": "8901972083",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 6
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "30.00"
+                            }
+                        }
+                    },
+                    {
                         "title": "Delivery Charges",
                         "price": {
                             "currency": "INR",
-                            "value": "8.00"
+                            "value": "20.00"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                         "@ondc/org/title_type": "delivery"
                     },
                     {
                         "title": "Convenience Fee",
                         "price": {
                             "currency": "INR",
-                            "value": "88.11"
+                            "value": "58.76"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                         "@ondc/org/title_type": "misc"
                     }
                 ],
@@ -317,9 +352,9 @@
                 "type": "ON-ORDER",
                 "collected_by": "BAP",
                 "params": {
-                    "amount": "2577.11",
+                    "amount": "1718.76",
                     "currency": "INR",
-                    "transaction_id": "order_O62G1DngWQHhX3"
+                    "transaction_id": "order_OOyT0RwzrIazsj"
                 },
                 "tl_method": "http/get",
                 "@ondc/org/settlement_basis": "delivery",
@@ -338,26 +373,25 @@
                         "bank_name": "State Bank Of India",
                         "branch_name": "Badshahpur",
                         "upi_address": "7053708236@paytm",
-                        "settlement_timestamp": "2024-05-03T13:21:51.233Z",
-                        "settlement_amount": "2577.11"
+                        "settlement_amount": "1718.76"
                     },
                     {
                         "settlement_counterparty": "buyer",
                         "settlement_phase": "refund",
                         "settlement_type": "netbanking",
-                        "settlement_timestamp": "2024-05-03T13:35:25.833Z",
-                        "settlement_amount": "320.0"
+                        "settlement_timestamp": "2024-06-20T10:01:11.782Z",
+                        "settlement_amount": "100.0"
                     }
                 ]
             },
             "documents": [
                 {
-                    "url": "https://krenai-resources-stg-new.s3.ap-south-1.amazonaws.com/1714743917186-1030866-cart-Invoice.pdf",
+                    "url": "https://krenai-resources-stg-new.s3.ap-south-1.amazonaws.com/1718877713883-1031014-cart-Invoice.pdf",
                     "label": "Invoice"
                 }
             ],
-            "created_at": "2024-05-03T13:21:48.974Z",
-            "updated_at": "2024-05-03T13:51:03.185Z"
+            "created_at": "2024-06-20T10:00:22.735Z",
+            "updated_at": "2024-06-20T10:02:10.452Z"
         }
     }
 }

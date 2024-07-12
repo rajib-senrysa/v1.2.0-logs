@@ -1,7 +1,7 @@
 {
     "context": {
         "ttl": "PT30S",
-        "city": "std:080",
+        "city": "std:011",
         "action": "init",
         "bap_id": "buypreprod.enam.gov.in",
         "bpp_id": "sellpreprod.enam.gov.in",
@@ -9,80 +9,101 @@
         "bap_uri": "https://buypreprod.enam.gov.in/ondc/v1",
         "bpp_uri": "https://sellpreprod.enam.gov.in/ondc/v1",
         "country": "IND",
-        "timestamp": "2024-05-04T00:57:33.973Z",
-        "message_id": "3d59f4f8-0d5b-4a1b-95db-57b59de113c2",
+        "timestamp": "2024-06-09T17:56:49.461Z",
+        "message_id": "2c78748d-f740-49ff-bacb-428e222c130b",
         "core_version": "1.2.0",
-        "transaction_id": "9703dec8-0257-4769-bb46-e509f15391ce"
+        "transaction_id": "44dba081-5f35-4c18-ba6c-a6b9eb0aee04"
     },
     "message": {
         "order": {
             "items": [
                 {
-                    "id": "110",
+                    "id": "1430",
                     "quantity": {
                         "count": 2
                     },
-                    "fulfillment_id": "103"
+                    "fulfillment_id": "247"
+                },
+                {
+                    "id": "1429",
+                    "quantity": {
+                        "count": 2
+                    },
+                    "fulfillment_id": "246"
+                }
+            ],
+            "offers": [
+                {
+                    "id": "CADBXN9YZ0",
+                    "tags": [
+                        {
+                            "code": "selection",
+                            "list": [
+                                {
+                                    "code": "apply",
+                                    "value": "yes"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ],
             "billing": {
-                "name": "Sumit Kumar",
-                "email": "params966@gmail.com",
-                "phone": "8475950505",
+                "name": "Shivam Gupta",
+                "email": "enam.helpdesk@gmail.com",
+                "phone": "8468894669",
                 "address": {
-                    "city": "Gurugram",
-                    "door": "451",
-                    "name": "Kumar Residence",
-                    "ward": "Fazilpur",
-                    "state": "Bihar",
-                    "street": "Sohna",
+                    "city": "Hyderabad",
+                    "name": "Default Address",
+                    "state": "Telangana",
                     "country": "IND",
-                    "building": "Flora",
-                    "locality": "Fatehpur",
-                    "area_code": "122234"
+                    "building": "511, Bahvani Mandir",
+                    "locality": "530, Rto Street, Kondapur",
+                    "area_code": "500084"
                 },
-                "created_at": "2024-05-01T13:12:40.522Z",
-                "tax_number": "",
-                "updated_at": "2024-05-01T13:12:40.522Z"
+                "created_at": "2024-06-09T17:56:49.000Z",
+                "updated_at": "2024-06-09T17:56:49.000Z"
+            },
+            "payment": {
+                "type": "ON-FULFILLMENT"
             },
             "provider": {
-                "id": "57",
+                "id": "116",
                 "locations": [
                     {
-                        "id": "66"
+                        "id": "288"
                     }
                 ]
             },
             "fulfillments": [
                 {
-                    "id": "103",
+                    "id": "246",
                     "end": {
                         "person": {
-                            "name": "param abc"
+                            "name": "Shivam Gupta"
                         },
                         "contact": {
-                            "email": "params966@gmail.com",
-                            "phone": "8978560404"
+                            "email": "enam.helpdesk@gmail.com",
+                            "phone": "8468894669"
                         },
                         "location": {
-                            "id": "112",
-                            "gps": "12.453544,77.928379",
+                            "gps": "28.6225833,77.2127222",
                             "address": {
-                                "city": "Gurugram",
-                                "door": "400",
+                                "city": "New Delhi",
                                 "name": "Default Address",
-                                "ward": "Fatehpur",
-                                "state": "Haryana",
-                                "street": "Sohna",
+                                "state": "Delhi",
                                 "country": "IND",
-                                "building": "Flora",
-                                "locality": "Fazilpur",
-                                "area_code": "122103"
+                                "building": "511, Bahvani Mandir",
+                                "locality": "530, Rto Street, Patrapali",
+                                "area_code": "110001"
                             }
                         }
                     },
-                    "type": "Delivery",
-                    "tracking": false
+                    "type": "Delivery"
+                },
+                {
+                    "id": "247",
+                    "type": "Self-Pickup"
                 }
             ]
         }

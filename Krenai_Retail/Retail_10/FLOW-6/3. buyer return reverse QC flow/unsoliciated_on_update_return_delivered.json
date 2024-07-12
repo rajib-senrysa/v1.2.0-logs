@@ -7,16 +7,15 @@
         "core_version": "1.2.0",
         "bap_id": "buyer-app-preprod-v2.ondc.org",
         "bap_uri": "https://buyer-app-preprod-v2.ondc.org/protocol/v1",
-        "transaction_id": "8ebb8e65-afba-4c74-ac6a-dc115c839d5d",
-        "message_id": "73343cbe-0958-11ef-a516-0272e47c9985",
-        "timestamp": "2024-05-03T14:21:36.635Z",
-        "ttl": "PT30S",
+        "transaction_id": "cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
+        "message_id": "7094c6e6-2eed-11ef-ab83-028d6acbce17",
+        "timestamp": "2024-06-20T10:11:20.271Z",
         "bpp_id": "storepreprod.krenai.in",
         "bpp_uri": "https://storepreprod.krenai.in/ondc/"
     },
     "message": {
         "order": {
-            "id": "2024-05-03-209671",
+            "id": "2024-06-20-368447",
             "state": "Completed",
             "provider": {
                 "id": "717",
@@ -39,8 +38,8 @@
                     "country": "IND",
                     "area_code": "122102"
                 },
-                "created_at": "2024-05-03T13:21:09.498Z",
-                "updated_at": "2024-05-03T13:21:09.498Z"
+                "created_at": "2024-06-20T09:59:42.706Z",
+                "updated_at": "2024-06-20T09:59:42.706Z"
             },
             "payment": {
                 "uri": "https://razorpay.com/",
@@ -48,9 +47,9 @@
                 "type": "ON-ORDER",
                 "collected_by": "BAP",
                 "params": {
-                    "amount": "2577.11",
+                    "amount": "1718.76",
                     "currency": "INR",
-                    "transaction_id": "order_O62G1DngWQHhX3"
+                    "transaction_id": "order_OOyT0RwzrIazsj"
                 },
                 "tl_method": "http/get",
                 "@ondc/org/buyer_app_finder_fee_type": "percent",
@@ -71,72 +70,72 @@
                         "settlement_counterparty": "buyer",
                         "settlement_phase": "refund",
                         "settlement_type": "netbanking",
-                        "settlement_timestamp": "2024-05-03T13:35:25.833Z",
-                        "settlement_amount": "320.0"
+                        "settlement_timestamp": "2024-06-20T10:01:11.782Z",
+                        "settlement_amount": "100.0"
                     },
                     {
                         "settlement_counterparty": "buyer",
                         "settlement_phase": "refund",
                         "settlement_type": "netbanking",
-                        "settlement_timestamp": "2024-05-03T14:09:05.326Z",
-                        "settlement_amount": "300.0"
+                        "settlement_timestamp": "2024-06-20T10:06:31.885Z",
+                        "settlement_amount": "15.0"
                     },
                     {
                         "settlement_counterparty": "buyer",
                         "settlement_phase": "refund",
                         "settlement_type": "netbanking",
-                        "settlement_timestamp": "2024-05-03T14:19:18.450Z",
-                        "settlement_amount": "1230.0"
+                        "settlement_timestamp": "2024-06-20T10:11:11.344Z",
+                        "settlement_amount": "1025.0"
                     }
                 ]
             },
             "items": [
                 {
-                    "id": "0638901218",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 7
-                    }
-                },
-                {
-                    "id": "8901972083",
-                    "fulfillment_id": "717",
-                    "quantity": {
-                        "count": 8
-                    }
-                },
-                {
-                    "id": "22563112",
-                    "fulfillment_id": "717-Return-261",
-                    "quantity": {
-                        "count": 5
-                    }
-                },
-                {
-                    "id": "100745",
-                    "fulfillment_id": "717-Return-262",
-                    "quantity": {
-                        "count": 6
-                    }
-                },
-                {
-                    "id": "4ca77026",
-                    "fulfillment_id": "717",
+                    "id": "16050842",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                     "quantity": {
                         "count": 0
                     }
                 },
                 {
                     "id": "4ca77026",
-                    "fulfillment_id": "717-Cancel-d1217f55-1810-4e5f-a332-17b326ea4907",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                     "quantity": {
                         "count": 4
+                    }
+                },
+                {
+                    "id": "8901972083",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
+                    "quantity": {
+                        "count": 6
+                    }
+                },
+                {
+                    "id": "6e170175",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Return-275",
+                    "quantity": {
+                        "count": 3
+                    }
+                },
+                {
+                    "id": "100745",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Return-276",
+                    "quantity": {
+                        "count": 5
+                    }
+                },
+                {
+                    "id": "16050842",
+                    "fulfillment_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Cancel-c355b7bf-8b13-4386-92b7-b2af03106d8d",
+                    "quantity": {
+                        "count": 2
                     }
                 }
             ],
             "fulfillments": [
                 {
-                    "id": "717",
+                    "id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                     "type": "Delivery",
                     "tracking": false,
                     "state": {
@@ -161,10 +160,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-03T13:21:51.187Z",
-                                "end": "2024-05-04T13:21:51.187Z"
+                                "start": "2024-06-20T10:00:26.088Z",
+                                "end": "2024-06-21T10:00:26.088Z"
                             },
-                            "timestamp": "2024-05-03T13:45:16.333Z"
+                            "timestamp": "2024-06-20T10:01:52.893Z"
                         },
                         "contact": {
                             "phone": "7667790555",
@@ -186,10 +185,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-04T13:21:51.187Z",
-                                "end": "2024-05-05T13:21:51.187Z"
+                                "start": "2024-06-21T10:00:26.088Z",
+                                "end": "2024-06-22T10:00:26.088Z"
                             },
-                            "timestamp": "2024-05-03T13:51:03.185Z"
+                            "timestamp": "2024-06-20T10:02:10.452Z"
                         },
                         "contact": {
                             "phone": "7053708236",
@@ -201,7 +200,7 @@
                     }
                 },
                 {
-                    "id": "717-Return-261",
+                    "id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Return-275",
                     "type": "Return",
                     "tracking": false,
                     "state": {
@@ -224,8 +223,8 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-03T14:21:36.635Z",
-                                "end": "2024-05-03T14:21:36.635Z"
+                                "start": "2024-06-20T10:11:20.271Z",
+                                "end": "2024-06-20T10:11:20.271Z"
                             }
                         },
                         "contact": {
@@ -250,8 +249,8 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-03T14:21:36.635Z",
-                                "end": "2024-05-03T14:21:36.635Z"
+                                "start": "2024-06-20T10:11:20.271Z",
+                                "end": "2024-06-20T10:11:20.271Z"
                             }
                         },
                         "contact": {
@@ -265,11 +264,11 @@
                             "list": [
                                 {
                                     "code": "item_id",
-                                    "value": "22563112"
+                                    "value": "6e170175"
                                 },
                                 {
                                     "code": "item_quantity",
-                                    "value": "5"
+                                    "value": "3"
                                 },
                                 {
                                     "code": "reason_id",
@@ -302,7 +301,7 @@
                                 },
                                 {
                                     "code": "id",
-                                    "value": "22563112"
+                                    "value": "6e170175"
                                 },
                                 {
                                     "code": "currency",
@@ -310,14 +309,14 @@
                                 },
                                 {
                                     "code": "value",
-                                    "value": "-300.0"
+                                    "value": "-15.0"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "id": "717-Return-262",
+                    "id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Return-276",
                     "type": "Return",
                     "tracking": false,
                     "state": {
@@ -340,10 +339,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-03T14:18:03.356Z",
-                                "end": "2024-05-05T14:18:03.356Z"
+                                "start": "2024-06-20T10:11:05.369Z",
+                                "end": "2024-06-22T10:11:05.369Z"
                             },
-                            "timestamp": "2024-05-03T14:19:17.948Z"
+                            "timestamp": "2024-06-20T10:11:10.749Z"
                         },
                         "contact": {
                             "phone": "7053708236",
@@ -367,10 +366,10 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2024-05-05T14:18:03.356Z",
-                                "end": "2024-05-06T14:18:03.356Z"
+                                "start": "2024-06-22T10:11:05.369Z",
+                                "end": "2024-06-23T10:11:05.369Z"
                             },
-                            "timestamp": "2024-05-03T14:21:36.629Z"
+                            "timestamp": "2024-06-20T10:11:20.261Z"
                         },
                         "contact": {
                             "phone": "7053708236",
@@ -387,7 +386,7 @@
                                 },
                                 {
                                     "code": "item_quantity",
-                                    "value": "6"
+                                    "value": "5"
                                 },
                                 {
                                     "code": "reason_id",
@@ -428,14 +427,14 @@
                                 },
                                 {
                                     "code": "value",
-                                    "value": "-1230.0"
+                                    "value": "-1025.0"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "id": "717-Cancel-d1217f55-1810-4e5f-a332-17b326ea4907",
+                    "id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf-Cancel-c355b7bf-8b13-4386-92b7-b2af03106d8d",
                     "type": "Cancel",
                     "tracking": false,
                     "state": {
@@ -449,7 +448,7 @@
                             "list": [
                                 {
                                     "code": "reason_id",
-                                    "value": "One or more items in the Order not available"
+                                    "value": "002"
                                 },
                                 {
                                     "code": "initiated_by",
@@ -466,7 +465,7 @@
                                 },
                                 {
                                     "code": "id",
-                                    "value": "4ca77026"
+                                    "value": "16050842"
                                 },
                                 {
                                     "code": "currency",
@@ -474,7 +473,7 @@
                                 },
                                 {
                                     "code": "value",
-                                    "value": "-320.0"
+                                    "value": "-100.0"
                                 }
                             ]
                         }
@@ -484,37 +483,19 @@
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "727.11"
+                    "value": "578.76"
                 },
                 "breakup": [
                     {
-                        "title": "PARACHCHTE HOT OIL 90ML",
+                        "title": "Harpic Disinfectant Toilet Cleaner",
                         "price": {
                             "currency": "INR",
-                            "value": "231.00"
+                            "value": "0"
                         },
-                        "@ondc/org/item_id": "0638901218",
+                        "@ondc/org/item_id": "16050842",
                         "@ondc/org/title_type": "item",
                         "@ondc/org/item_quantity": {
-                            "count": 7
-                        },
-                        "item": {
-                            "price": {
-                                "currency": "INR",
-                                "value": "33.00"
-                            }
-                        }
-                    },
-                    {
-                        "title": "Parle Orange Bite",
-                        "price": {
-                            "currency": "INR",
-                            "value": "400.00"
-                        },
-                        "@ondc/org/item_id": "8901972083",
-                        "@ondc/org/title_type": "item",
-                        "@ondc/org/item_quantity": {
-                            "count": 8
+                            "count": 0
                         },
                         "item": {
                             "price": {
@@ -524,28 +505,64 @@
                         }
                     },
                     {
+                        "title": "Catch Turmeric Powder 200 gram",
+                        "price": {
+                            "currency": "INR",
+                            "value": "320.00"
+                        },
+                        "@ondc/org/item_id": "4ca77026",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 4
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "80.00"
+                            }
+                        }
+                    },
+                    {
+                        "title": "Parle Orange Bite",
+                        "price": {
+                            "currency": "INR",
+                            "value": "180.00"
+                        },
+                        "@ondc/org/item_id": "8901972083",
+                        "@ondc/org/title_type": "item",
+                        "@ondc/org/item_quantity": {
+                            "count": 6
+                        },
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "30.00"
+                            }
+                        }
+                    },
+                    {
                         "title": "Delivery Charges",
                         "price": {
                             "currency": "INR",
-                            "value": "8.00"
+                            "value": "20.00"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                         "@ondc/org/title_type": "delivery"
                     },
                     {
                         "title": "Convenience Fee",
                         "price": {
                             "currency": "INR",
-                            "value": "88.11"
+                            "value": "58.76"
                         },
-                        "@ondc/org/item_id": "717",
+                        "@ondc/org/item_id": "717_cdd16d00-1181-4122-b6cc-7bdfc26dbdcf",
                         "@ondc/org/title_type": "misc"
                     }
                 ],
                 "ttl": "PT5M"
             },
-            "created_at": "2024-05-03T13:21:48.974Z",
-            "updated_at": "2024-05-03T14:21:36.635Z"
+            "created_at": "2024-06-20T10:00:22.735Z",
+            "updated_at": "2024-06-20T10:11:20.271Z"
         }
     }
 }
